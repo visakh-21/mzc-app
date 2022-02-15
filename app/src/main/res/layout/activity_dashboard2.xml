@@ -40,6 +40,4 @@
         android:id="@+id/viewweb"
         android:layout_margin="5dp"
         android:background="@color/button"/>
-
-
 </LinearLayout>

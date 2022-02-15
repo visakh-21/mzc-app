@@ -1,4 +1,5 @@
-<LinearLayout android:layout_height="match_parent"
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:background="@color/button"
@@ -37,7 +38,7 @@
         android:text="mobileno"/>
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"w
+        android:layout_height="wrap_content"
         android:id="@+id/mobno"
         android:layout_margin="5dp"/>
     <TextView
@@ -50,13 +51,14 @@
         android:id="@+id/eid"
         android:layout_margin="5dp"/>
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sbmt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="submit"
-        android:id="@+id/sbmt"/>
+        android:text="submit" />
+
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Back to dash board"
-        android:id="@+id/sbmt"/>
+        android:id="@+id/sbt"/>
 </LinearLayout>
